@@ -10,162 +10,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
-
-      .jost {
-        font-family: "Jost", sans-serif;
-      }
-      .openfont {
-        font-family: "Open Sans", sans-serif;
-      }
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
-      .mySwiper .swiper-slide {
-        opacity: 1;
-      }
-      .mySwiper .swiper-slide-active {
-        opacity: 1;
-        box-shadow: 0px 4px 31px 0px rgba(255, 255, 255, 0.18);
-      }
-
-      .swiper-slide {
-        font-size: 18px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .swiper-button-next:after,
-      .swiper-rtl .swiper-button-prev:after {
-        content: "" !important;
-      }
-      .swiper-button-prev:after,
-      .swiper-rtl .swiper-button-next:after {
-        content: "" !important;
-      }
-
-      a:hover::after {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 0;
-        background: linear-gradient(
-          269deg,
-          #2653ff 0.48%,
-          #af00e8 21.76%,
-          #f014bb 39.01%,
-          #ff3078 53.1%,
-          #ff5431 71.36%,
-          #fabd23 99.5%
-        ) !important;
-        bottom: 0;
-        left: 20%;
-        animation-name: move;
-        animation-duration: 2s;
-        animation-delay: 0.2s;
-        animation-iteration-count: infinite;
-      }
-      .btn:hover {
-        background: linear-gradient(
-          269deg,
-          #2653ff 0.48%,
-          #af00e8 21.76%,
-          #f014bb 39.01%,
-          #ff3078 53.1%,
-          #ff5431 71.36%,
-          #fabd23 99.5%
-        ) !important;
-      }
-      .btn2 {
-        background: linear-gradient(
-          269deg,
-          #2653ff 0.48%,
-          #af00e8 21.76%,
-          #f014bb 39.01%,
-          #ff3078 53.1%,
-          #ff5431 71.36%,
-          #fabd23 99.5%
-        ) !important;
-      }
-      .textrgb {
-        background: linear-gradient(
-          269deg,
-          #2653ff 0.48%,
-          #af00e8 21.76%,
-          #f014bb 39.01%,
-          #ff3078 53.1%,
-          #ff5431 71.36%,
-          #fabd23 99.5%
-        );
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      .drop {
-        backdrop-filter: blur(27.083818435668945px);
-        box-shadow: -50.63837px 31.98213px 122.59817px 0px rgba(0, 0, 0, 0.44);
-      }
-
-      @keyframes move {
-        0% {
-          width: 0;
-          left: 30%;
-          background-color: #f014bb;
-        }
-        50% {
-          width: 100%;
-          left: 0;
-          background-color: #fabd23;
-        }
-        100% {
-          width: 0;
-          left: 100%;
-          background-color: #f014bb;
-        }
-      }
-      .swiper-pagination-bullet-active {
-        opacity: var(--swiper-pagination-bullet-opacity, 1);
-        background: linear-gradient(
-          269deg,
-          #2653ff 0.48%,
-          #af00e8 21.76%,
-          #f014bb 39.01%,
-          #ff3078 53.1%,
-          #ff5431 71.36%,
-          #fabd23 99.5%
-        ) !important;
-        width: 54px !important;
-        height: 24px !important;
-        border-radius: 40px !important;
-      }
-      .swiper-pagination-bullet {
-        width: var(
-          --swiper-pagination-bullet-width,
-          var(--swiper-pagination-bullet-size, 20px)
-        ) !important;
-        height: var(
-          --swiper-pagination-bullet-height,
-          var(--swiper-pagination-bullet-size, 20px)
-        ) !important;
-        display: inline-block;
-        border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-
-        opacity: var(--swiper-pagination-bullet-inactive-opacity, 1) !important;
-        border: 1px solid white !important;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body class="bg-[#14020A] relative pt-[24px] max-xl:px-3">
@@ -672,13 +517,13 @@
         </div>
       </div>
       <div class="mt-[75px]">
-        <img src="/Group 36043.png" alt="" />
+        <img src="./Group 36043.png" alt="" />
       </div>
     </div>
     <!-- our service  -->
     <div class="bg-[#35262D] relative mt-[70px]">
       <span class="absolute bottom-10 right-0">
-        <img src="/Group 16.png" alt="" />
+        <img src="./Group 16.png" alt="" />
       </span>
       <div class="max-w-[1340px] w-full mx-auto px-[60px] relative pb-[80px]">
         <h1
@@ -962,7 +807,7 @@
       <div
         class="max-w-[1140px] w-full mx-auto mt-[200px] gap-[32px] flex lg:flex-row flex-col items-center relative"
       >
-        <div><img src="/Group 36041.png" alt="" /></div>
+        <div><img src="./Group 36041.png" alt="" /></div>
         <div class="mt-[36px] w-full">
           <h2
             class="text-white text-[24px] openfont font-semibold leading-[26px]"
@@ -1058,7 +903,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center">
-          <img src="/Group 36042.png" alt="" />
+          <img src="./Group 36042.png" alt="" />
           <div class="max-w-[271px] w-full">
             <h2 class="textrgb jost text-[60px] font-semibold leading-[95px]">
               02
@@ -1116,18 +961,18 @@
         </button>
       </div>
       <div>
-        <img src="/image 8.png" alt="" />
+        <img src="./image 8.png" alt="" />
       </div>
     </div>
     <!-- get in  -->
     <div
-      class="bg-[url('/bg.png')] bg-cover bg-no-repeat max-w-[1440px] bg-center w-full mx-auto mt-[200px]"
+      class="bg-[url('./bg.png')] bg-cover bg-no-repeat max-w-[1440px] bg-center w-full mx-auto mt-[200px]"
     >
       <div
         class="flex lg:flex-row flex-col max-w-[1440px] w-full mx-auto items-center justify-between"
       >
         <div>
-          <img src="/Group 20.png" alt="" />
+          <img src="./Group 20.png" alt="" />
         </div>
         <div class="max-w-[526px] w-full">
           <h1
@@ -1237,7 +1082,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1263,7 +1108,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1289,7 +1134,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1315,7 +1160,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1341,7 +1186,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1367,7 +1212,7 @@
               <div
                 class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
               >
-                <img src="/Rectangle 12.png" alt="" />
+                <img src="./Rectangle 12.png" alt="" />
                 <h2
                   class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
                 >
@@ -1400,74 +1245,6 @@
 
     <!-- Initialize Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 34,
-        loop: true,
-        centeredSlides: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 44,
-          },
-          1024: {
-            slidesPerView: 2,
-            spaceBetween: 44,
-          },
-          1400: {
-            slidesPerView: 3,
-            spaceBetween: 44,
-          },
-        },
-      });
-
-      var swiper = new Swiper(".mySwiper2", {
-        slidesPerView: 1,
-        spaceBetween: 34,
-        loop: true,
-
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 44,
-          },
-          1024: {
-            slidesPerView: 2,
-            spaceBetween: 44,
-          },
-          1400: {
-            slidesPerView: 3,
-            spaceBetween: 44,
-          },
-        },
-      });
-
-      const btn = document.getElementById("btn");
-      const side = document.getElementById("side");
-      btn.addEventListener("click", () => {
-        if (side.style.left === "-105%") {
-          side.style.left = "0";
-        } else {
-          side.style.left = "-105%";
-        }
-      });
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
