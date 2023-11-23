@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style/global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="bg-[#14020A] relative pt-[24px] max-xl:px-3">
+    <span class="absolute top-0 right-0">
+      <svg
+        width="118"
+        height="117"
+        viewBox="0 0 118 117"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_f_501_520)">
+          <circle
+            cx="81.7119"
+            cy="35.7559"
+            r="77"
+            fill="url(#paint0_linear_501_520)"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_501_520"
+            x="0.711914"
+            y="-45.2441"
+            width="162"
+            height="162"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="2"
+              result="effect1_foregroundBlur_501_520"
+            />
+          </filter>
+          <linearGradient
+            id="paint0_linear_501_520"
+            x1="158.712"
+            y1="33.5578"
+            x2="4.727"
+            y2="35.081"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#2653FF" />
+            <stop offset="0.214918" stop-color="#AF00E8" />
+            <stop offset="0.389117" stop-color="#F014BB" />
+            <stop offset="0.531493" stop-color="#FF3078" />
+            <stop offset="0.715815" stop-color="#FF5431" />
+            <stop offset="1" stop-color="#FABD23" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </span>
+
+    <!-- navbar  -->
+    <nav
+      class="max-w-[1371px] flex items-center w-full mx-auto h-[80px] bg-[rgba(255,255,255,0.05)] rounded-[5px] border-[0.5px] border-[rgba(255,255,255,0.32);] shadow-[-50.63837px_31.98213px_122.59817px_0px_rgba(0,0,0,0.44);] backdrop-blur-[27px] justify-around drop relative"
+    >
+      <span>
+        <svg
+          width="50"
+          height="19"
+          viewBox="0 0 50 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.862095 14.7559V0.889191H3.43733V12.5768H10.6876V14.7559H0.862095ZM17.1406 14.8945C16.0577 14.8945 15.0936 14.6634 14.2484 14.2012C13.4032 13.7258 12.7363 13.0787 12.2476 12.2599C11.759 11.4411 11.5147 10.51 11.5147 9.46672C11.5147 8.41021 11.759 7.47916 12.2476 6.67357C12.7363 5.85478 13.4032 5.21427 14.2484 4.75205C15.0936 4.28983 16.0577 4.05872 17.1406 4.05872C18.2367 4.05872 19.2074 4.28983 20.0526 4.75205C20.911 5.21427 21.5779 5.84818 22.0533 6.65376C22.542 7.45935 22.7863 8.397 22.7863 9.46672C22.7863 10.51 22.542 11.4411 22.0533 12.2599C21.5779 13.0787 20.911 13.7258 20.0526 14.2012C19.2074 14.6634 18.2367 14.8945 17.1406 14.8945ZM17.1406 12.7749C17.7481 12.7749 18.2895 12.6428 18.765 12.3787C19.2404 12.1146 19.6102 11.7316 19.8743 11.2298C20.1516 10.7279 20.2903 10.1402 20.2903 9.46672C20.2903 8.77999 20.1516 8.1923 19.8743 7.70367C19.6102 7.20183 19.2404 6.81884 18.765 6.55472C18.2895 6.29059 17.7547 6.15853 17.1604 6.15853C16.5529 6.15853 16.0114 6.29059 15.536 6.55472C15.0738 6.81884 14.704 7.20183 14.4267 7.70367C14.1493 8.1923 14.0107 8.77999 14.0107 9.46672C14.0107 10.1402 14.1493 10.7279 14.4267 11.2298C14.704 11.7316 15.0738 12.1146 15.536 12.3787C16.0114 12.6428 16.5463 12.7749 17.1406 12.7749ZM29.948 18.7376C28.9708 18.7376 28.0133 18.6055 27.0757 18.3414C26.1512 18.0905 25.3919 17.7207 24.7976 17.232L25.9069 15.37C26.3691 15.7529 26.9502 16.0567 27.6501 16.2812C28.3633 16.5189 29.083 16.6378 29.8094 16.6378C30.9715 16.6378 31.8234 16.367 32.3648 15.8256C32.9063 15.2973 33.177 14.4983 33.177 13.4286V11.5467L33.3751 9.14976L33.2959 6.75281V4.17757H35.6532V13.1513C35.6532 15.0662 35.1646 16.4727 34.1873 17.3707C33.21 18.282 31.7969 18.7376 29.948 18.7376ZM29.6311 14.2804C28.6274 14.2804 27.7162 14.0691 26.8974 13.6465C26.0918 13.2107 25.4513 12.6098 24.9759 11.8439C24.5136 11.0779 24.2825 10.1799 24.2825 9.14976C24.2825 8.13287 24.5136 7.24145 24.9759 6.47548C25.4513 5.70951 26.0918 5.11522 26.8974 4.69262C27.7162 4.27002 28.6274 4.05872 29.6311 4.05872C30.5291 4.05872 31.3347 4.237 32.0479 4.59357C32.761 4.95014 33.3289 5.50481 33.7515 6.25757C34.1873 7.01034 34.4052 7.9744 34.4052 9.14976C34.4052 10.3251 34.1873 11.2958 33.7515 12.0618C33.3289 12.8145 32.761 13.3758 32.0479 13.7456C31.3347 14.1021 30.5291 14.2804 29.6311 14.2804ZM30.0075 12.1806C30.6282 12.1806 31.1828 12.0552 31.6715 11.8042C32.1601 11.5401 32.5365 11.1835 32.8006 10.7345C33.078 10.2723 33.2166 9.74405 33.2166 9.14976C33.2166 8.55548 33.078 8.03383 32.8006 7.58481C32.5365 7.12259 32.1601 6.77262 31.6715 6.53491C31.1828 6.28399 30.6282 6.15853 30.0075 6.15853C29.3868 6.15853 28.8255 6.28399 28.3237 6.53491C27.835 6.77262 27.452 7.12259 27.1747 7.58481C26.9106 8.03383 26.7785 8.55548 26.7785 9.14976C26.7785 9.74405 26.9106 10.2723 27.1747 10.7345C27.452 11.1835 27.835 11.5401 28.3237 11.8042C28.8255 12.0552 29.3868 12.1806 30.0075 12.1806ZM43.6629 14.8945C42.58 14.8945 41.6159 14.6634 40.7707 14.2012C39.9255 13.7258 39.2586 13.0787 38.7699 12.2599C38.2813 11.4411 38.037 10.51 38.037 9.46672C38.037 8.41021 38.2813 7.47916 38.7699 6.67357C39.2586 5.85478 39.9255 5.21427 40.7707 4.75205C41.6159 4.28983 42.58 4.05872 43.6629 4.05872C44.759 4.05872 45.7297 4.28983 46.5749 4.75205C47.4333 5.21427 48.1002 5.84818 48.5757 6.65376C49.0643 7.45935 49.3086 8.397 49.3086 9.46672C49.3086 10.51 49.0643 11.4411 48.5757 12.2599C48.1002 13.0787 47.4333 13.7258 46.5749 14.2012C45.7297 14.6634 44.759 14.8945 43.6629 14.8945ZM43.6629 12.7749C44.2704 12.7749 44.8118 12.6428 45.2873 12.3787C45.7627 12.1146 46.1325 11.7316 46.3966 11.2298C46.6739 10.7279 46.8126 10.1402 46.8126 9.46672C46.8126 8.77999 46.6739 8.1923 46.3966 7.70367C46.1325 7.20183 45.7627 6.81884 45.2873 6.55472C44.8118 6.29059 44.277 6.15853 43.6827 6.15853C43.0752 6.15853 42.5338 6.29059 42.0583 6.55472C41.5961 6.81884 41.2263 7.20183 40.949 7.70367C40.6717 8.1923 40.533 8.77999 40.533 9.46672C40.533 10.1402 40.6717 10.7279 40.949 11.2298C41.2263 11.7316 41.5961 12.1146 42.0583 12.3787C42.5338 12.6428 43.0686 12.7749 43.6629 12.7749Z"
+            fill="url(#paint0_linear_501_548)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_501_548"
+              x1="51"
+              y1="7.4133"
+              x2="-0.976117"
+              y2="8.52731"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <div class="flex gap-[34px] max-lg:hidden">
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Home</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Services</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Benefits</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          How To Work</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          About Us</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Blog</a
+        >
+      </div>
+      <button
+        type="submit"
+        class="w-[124px] btn max-lg:hidden h-[42px] rounded-[8px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+      >
+        Sign Up
+      </button>
+      <button type="submit" class="lg:hidden text-white text-[44px]" id="btn">
+        +
+      </button>
+      <!-- sidebar  -->
+      <div
+        id="side"
+        class="flex flex-col gap-[34px] items-center bg-cyan-700 absolute w-full top-20 left-[-150%]"
+      >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Home</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Services</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Benefits</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          How To Work</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          About Us</a
+        >
+        <a
+          href=""
+          class="relative text-white openfont text-[16px] font-normal hover:font-bold"
+        >
+          Blog</a
+        >
+        <button
+          type="submit"
+          class="w-[124px] btn h-[42px] rounded-[8px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+        >
+          Sign Up
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero  -->
+    <div
+      class="max-w-[1371px] w-full mx-auto relative flex xl:flex-row flex-col items-center"
+    >
+      <span class="absolute -bottom-9 -left-[4%]">
+        <svg
+          width="151"
+          height="163"
+          viewBox="0 0 151 163"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.4" filter="url(#filter0_f_501_521)">
+            <circle
+              cx="70"
+              cy="81.8378"
+              r="77"
+              fill="url(#paint0_linear_501_521)"
+            />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_501_521"
+              x="-11"
+              y="0.83783"
+              width="162"
+              height="162"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="2"
+                result="effect1_foregroundBlur_501_521"
+              />
+            </filter>
+            <linearGradient
+              id="paint0_linear_501_521"
+              x1="147"
+              y1="79.6397"
+              x2="-6.98491"
+              y2="81.163"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="absolute left-[47%] -z-10 top-8"
+        ><svg
+          width="104"
+          height="103"
+          viewBox="0 0 104 103"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_f_501_550)">
+            <circle
+              cx="52.0002"
+              cy="51.2941"
+              r="48.5382"
+              fill="url(#paint0_linear_501_550)"
+            />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_501_550"
+              x="0.940447"
+              y="0.234392"
+              width="102.12"
+              height="102.119"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="1.26073"
+                result="effect1_foregroundBlur_501_550"
+              />
+            </filter>
+            <linearGradient
+              id="paint0_linear_501_550"
+              x1="100.538"
+              y1="49.9085"
+              x2="3.47142"
+              y2="50.8687"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <div
+        class="max-w-[710px] sm:h-[706px] w-full rounded-[5px] border-[0.5px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.32);] shadow-[-50.63837px_31.98213px_122.59817px_0px_rgba(0,0,0,0.44);] backdrop-blur-[27px] px-[44px] pt-[117px] -z-10 flex sm:flex-row flex-col gap-[47px] relative -mt-[8px]"
+      >
+        <span class="absolute top-[62px] left-[60%]">
+          <svg
+            width="28"
+            height="27"
+            viewBox="0 0 28 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M27.1558 13.5059C27.1558 20.8236 21.2235 26.7559 13.9058 26.7559C6.58799 26.7559 0.655762 20.8236 0.655762 13.5059C0.655762 6.18809 6.58799 0.255859 13.9058 0.255859C21.2235 0.255859 27.1558 6.18809 27.1558 13.5059ZM3.39568 13.5059C3.39568 19.3104 8.1012 24.0159 13.9058 24.0159C19.7103 24.0159 24.4158 19.3104 24.4158 13.5059C24.4158 7.7013 19.7103 2.99577 13.9058 2.99577C8.1012 2.99577 3.39568 7.7013 3.39568 13.5059Z"
+              fill="url(#paint0_linear_501_576)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_501_576"
+                x1="27.1558"
+                y1="13.1276"
+                x2="0.658358"
+                y2="13.3897"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2653FF" />
+                <stop offset="0.214918" stop-color="#AF00E8" />
+                <stop offset="0.389117" stop-color="#F014BB" />
+                <stop offset="0.531493" stop-color="#FF3078" />
+                <stop offset="0.715815" stop-color="#FF5431" />
+                <stop offset="1" stop-color="#FABD23" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute bottom-[162px] left-[80%]">
+          <svg
+            width="28"
+            height="27"
+            viewBox="0 0 28 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M27.1558 13.5059C27.1558 20.8236 21.2235 26.7559 13.9058 26.7559C6.58799 26.7559 0.655762 20.8236 0.655762 13.5059C0.655762 6.18809 6.58799 0.255859 13.9058 0.255859C21.2235 0.255859 27.1558 6.18809 27.1558 13.5059ZM3.39568 13.5059C3.39568 19.3104 8.1012 24.0159 13.9058 24.0159C19.7103 24.0159 24.4158 19.3104 24.4158 13.5059C24.4158 7.7013 19.7103 2.99577 13.9058 2.99577C8.1012 2.99577 3.39568 7.7013 3.39568 13.5059Z"
+              fill="url(#paint0_linear_501_576)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_501_576"
+                x1="27.1558"
+                y1="13.1276"
+                x2="0.658358"
+                y2="13.3897"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2653FF" />
+                <stop offset="0.214918" stop-color="#AF00E8" />
+                <stop offset="0.389117" stop-color="#F014BB" />
+                <stop offset="0.531493" stop-color="#FF3078" />
+                <stop offset="0.715815" stop-color="#FF5431" />
+                <stop offset="1" stop-color="#FABD23" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute bottom-[62px] left-[30%]">
+          <svg
+            width="28"
+            height="27"
+            viewBox="0 0 28 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M27.1558 13.5059C27.1558 20.8236 21.2235 26.7559 13.9058 26.7559C6.58799 26.7559 0.655762 20.8236 0.655762 13.5059C0.655762 6.18809 6.58799 0.255859 13.9058 0.255859C21.2235 0.255859 27.1558 6.18809 27.1558 13.5059ZM3.39568 13.5059C3.39568 19.3104 8.1012 24.0159 13.9058 24.0159C19.7103 24.0159 24.4158 19.3104 24.4158 13.5059C24.4158 7.7013 19.7103 2.99577 13.9058 2.99577C8.1012 2.99577 3.39568 7.7013 3.39568 13.5059Z"
+              fill="url(#paint0_linear_501_576)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_501_576"
+                x1="27.1558"
+                y1="13.1276"
+                x2="0.658358"
+                y2="13.3897"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2653FF" />
+                <stop offset="0.214918" stop-color="#AF00E8" />
+                <stop offset="0.389117" stop-color="#F014BB" />
+                <stop offset="0.531493" stop-color="#FF3078" />
+                <stop offset="0.715815" stop-color="#FF5431" />
+                <stop offset="1" stop-color="#FABD23" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <div class="flex flex-row sm:flex-col gap-4 items-center">
+          <div class="sm:w-[1px] w-[104px] h-[1px] sm:h-[104px] bg-white"></div>
+          <span
+            ><svg
+              width="26"
+              height="27"
+              viewBox="0 0 26 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.1693 26.3263C10.6636 26.3263 8.21407 25.5833 6.13062 24.1912C4.04716 22.7991 2.4233 20.8204 1.46439 18.5054C0.505484 16.1904 0.254597 13.643 0.743445 11.1854C1.23229 8.72778 2.43891 6.47036 4.21074 4.69852C5.98258 2.92669 8.24004 1.72005 10.6976 1.2312C13.1552 0.742357 15.7026 0.993254 18.0176 1.95216C20.3326 2.91107 22.3113 4.53492 23.7034 6.61838C25.0955 8.70183 25.8386 11.1513 25.8386 13.657C25.8351 17.0161 24.4992 20.2365 22.124 22.6117C19.7488 24.9869 16.5283 26.3229 13.1693 26.3263ZM13.1693 2.04025C10.8717 2.04025 8.62572 2.72157 6.71535 3.99804C4.80497 5.27451 3.31601 7.08879 2.43676 9.21149C1.55752 11.3342 1.32746 13.6699 1.7757 15.9234C2.22394 18.1768 3.33033 20.2468 4.95497 21.8714C6.57961 23.496 8.64952 24.6024 10.903 25.0506C13.1564 25.4989 15.4922 25.2688 17.6149 24.3896C19.7375 23.5103 21.5518 22.0214 22.8283 20.111C24.1048 18.2006 24.7861 15.9546 24.7861 13.657C24.7826 10.5771 23.5576 7.6244 21.3798 5.44658C19.202 3.26876 16.2492 2.04373 13.1693 2.04025Z"
+                fill="white"
+              />
+              <path
+                d="M15.406 8.73679H10.9987C10.2787 8.73678 9.58801 9.02189 9.07767 9.52977C8.56733 10.0376 8.27887 10.7269 8.27539 11.4469V15.8542C8.27539 16.5765 8.56231 17.2692 9.07303 17.7799C9.58375 18.2906 10.2764 18.5775 10.9987 18.5775H15.406C16.1122 18.5536 16.7814 18.2562 17.2724 17.7481C17.7634 17.2399 18.0376 16.5608 18.0372 15.8542V11.4469C18.0375 10.7416 17.7628 10.064 17.2715 9.55796C16.7802 9.05191 16.111 8.75733 15.406 8.73679ZM17.2478 15.8542C17.2478 16.3427 17.0538 16.8112 16.7084 17.1566C16.3629 17.502 15.8945 17.6961 15.406 17.6961H10.9987C10.5102 17.6961 10.0417 17.502 9.69631 17.1566C9.35089 16.8112 9.15684 16.3427 9.15684 15.8542V11.4469C9.15684 10.9584 9.35089 10.4899 9.69631 10.1445C10.0417 9.79912 10.5102 9.60509 10.9987 9.60509H15.406C15.8945 9.60509 16.3629 9.79912 16.7084 10.1445C17.0538 10.4899 17.2478 10.9584 17.2478 11.4469V15.8542Z"
+                fill="white"
+              />
+              <path
+                d="M13.1695 11.118C12.6673 11.118 12.1764 11.2669 11.7588 11.5459C11.3413 11.8249 11.0158 12.2215 10.8236 12.6854C10.6315 13.1494 10.5812 13.6599 10.6792 14.1525C10.7771 14.645 11.019 15.0974 11.3741 15.4526C11.7292 15.8077 12.1816 16.0495 12.6741 16.1475C13.1667 16.2454 13.6772 16.1951 14.1412 16.003C14.6051 15.8108 15.0017 15.4854 15.2807 15.0678C15.5597 14.6502 15.7086 14.1593 15.7086 13.6571C15.7086 12.9837 15.4411 12.3379 14.9649 11.8617C14.4887 11.3855 13.8429 11.118 13.1695 11.118ZM13.1695 15.3148C12.8385 15.3148 12.5149 15.2165 12.2399 15.0323C11.9648 14.8481 11.7507 14.5863 11.6246 14.2803C11.4986 13.9742 11.4663 13.6376 11.5318 13.3132C11.5974 12.9887 11.7578 12.691 11.9928 12.4579C12.2278 12.2247 12.5267 12.0666 12.8517 12.0037C13.1766 11.9407 13.513 11.9757 13.8181 12.1042C14.1231 12.2326 14.3831 12.4488 14.5651 12.7253C14.7471 13.0018 14.8429 13.3261 14.8403 13.6571C14.8368 14.098 14.6593 14.5196 14.3463 14.8301C14.0333 15.1406 13.6104 15.3148 13.1695 15.3148Z"
+                fill="white"
+              />
+              <path
+                d="M15.8137 10.3813C15.7307 10.3811 15.6485 10.3973 15.5717 10.4289C15.495 10.4605 15.4252 10.5069 15.3664 10.5655C15.3038 10.6234 15.2539 10.6936 15.2197 10.7717C15.1856 10.8498 15.168 10.9341 15.168 11.0194C15.168 11.1046 15.1856 11.1889 15.2197 11.267C15.2539 11.3452 15.3038 11.4154 15.3664 11.4733C15.4251 11.5321 15.4948 11.5789 15.5715 11.6107C15.6483 11.6426 15.7306 11.659 15.8137 11.659C15.8968 11.659 15.9791 11.6426 16.0559 11.6107C16.1326 11.5789 16.2023 11.5321 16.261 11.4733C16.3236 11.4154 16.3735 11.3452 16.4077 11.267C16.4418 11.1889 16.4594 11.1046 16.4594 11.0194C16.4594 10.9341 16.4418 10.8498 16.4077 10.7717C16.3735 10.6936 16.3236 10.6234 16.261 10.5655C16.2022 10.5069 16.1324 10.4605 16.0557 10.4289C15.9789 10.3973 15.8967 10.3811 15.8137 10.3813Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+          <span
+            ><svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.721 9.56178C18.3033 9.74708 17.8595 9.86688 17.4054 9.91698C17.8773 9.63648 18.2287 9.19132 18.3921 8.66718C17.9492 8.932 17.4641 9.11888 16.9581 9.21971C16.6147 8.86019 16.1632 8.62295 15.6723 8.54424C15.1815 8.46554 14.6784 8.54969 14.2399 8.78385C13.8014 9.01802 13.4516 9.38934 13.244 9.84102C13.0363 10.2927 12.9823 10.7999 13.0902 11.2852C12.1874 11.2394 11.3043 11.005 10.4976 10.5972C9.69095 10.1893 8.97866 9.61698 8.40661 8.91711C8.20992 9.26664 8.10576 9.66065 8.10401 10.0617C8.10678 10.4327 8.19916 10.7974 8.37325 11.125C8.54733 11.4526 8.79799 11.7332 9.10388 11.943C8.74616 11.9244 8.39645 11.8302 8.07771 11.6668C8.08206 12.1907 8.26599 12.6972 8.5988 13.1019C8.93162 13.5065 9.39317 13.7847 9.9064 13.8901C9.70923 13.9439 9.5056 13.9705 9.30121 13.9691C9.16121 13.9826 9.02023 13.9826 8.88023 13.9691C9.02856 14.4178 9.31138 14.81 9.69032 15.0924C10.0693 15.3749 10.5259 15.5339 10.9984 15.5478C10.1939 16.1742 9.2025 16.5124 8.18296 16.5082C8.00341 16.5216 7.8231 16.5216 7.64355 16.5082C8.61904 17.1303 9.74369 17.4789 10.9 17.5177C12.0563 17.5566 13.2018 17.2841 14.2168 16.7289C15.2318 16.1737 16.0791 15.356 16.6701 14.3614C17.261 13.3667 17.5741 12.2317 17.5764 11.0747C17.5832 10.9784 17.5832 10.8816 17.5764 10.7853C18.0252 10.4617 18.4128 10.0608 18.721 9.60125V9.56178Z"
+                fill="white"
+              />
+              <path
+                d="M13.1562 25.6649C10.651 25.6623 8.20278 24.9171 6.12106 23.5234C4.03934 22.1297 2.41752 20.1501 1.46063 17.8348C0.503735 15.5196 0.254716 12.9727 0.745049 10.5159C1.23538 8.05918 2.44304 5.80295 4.2154 4.03243C5.98776 2.26192 8.24523 1.05659 10.7025 0.568808C13.1597 0.0810261 15.7064 0.33268 18.0207 1.29197C20.3349 2.25127 22.3128 3.87514 23.7044 5.95831C25.0959 8.04148 25.8386 10.4904 25.8386 12.9956C25.8351 16.3569 24.4974 19.5794 22.1193 21.955C19.7413 24.3305 16.5175 25.6649 13.1562 25.6649ZM13.1562 1.37882C10.8586 1.37882 8.61257 2.06014 6.7022 3.33661C4.79182 4.61308 3.30285 6.42736 2.4236 8.55006C1.54436 10.6727 1.31431 13.0085 1.76255 15.2619C2.21079 17.5154 3.31718 19.5853 4.94182 21.21C6.56646 22.8346 8.63637 23.941 10.8898 24.3892C13.1433 24.8374 15.479 24.6074 17.6017 23.7282C19.7244 22.8489 21.5387 21.36 22.8152 19.4496C24.0916 17.5392 24.773 15.2932 24.773 12.9956C24.7695 9.91571 23.5445 6.96297 21.3666 4.78515C19.1888 2.60733 16.2361 1.3823 13.1562 1.37882Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+          <span>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.7747 10.1242V11.5714H10.7222V13.3343H11.7747V18.5967H13.9454V13.3343H15.3926C15.3926 13.3343 15.5373 12.4791 15.6031 11.5582H13.9586V10.361C13.9739 10.248 14.0283 10.144 14.1125 10.067C14.1966 9.99011 14.3051 9.94515 14.419 9.94002H15.6031V8.16394H13.998C11.722 8.16394 11.7747 9.92686 11.7747 10.19V10.1242Z"
+                fill="white"
+              />
+              <path
+                d="M13.1693 26.0035C10.6635 26.0035 8.21407 25.2604 6.13061 23.8683C4.04716 22.4762 2.42331 20.4975 1.4644 18.1825C0.505491 15.8675 0.254594 13.3201 0.743442 10.8625C1.23229 8.40493 2.43893 6.14751 4.21076 4.37568C5.98259 2.60385 8.24004 1.39721 10.6976 0.908359C13.1552 0.419511 15.7026 0.670408 18.0176 1.62932C20.3326 2.58823 22.3113 4.21208 23.7034 6.29553C25.0955 8.37898 25.8386 10.8284 25.8386 13.3342C25.8351 16.6932 24.4992 19.9137 22.124 22.2889C19.7488 24.6641 16.5283 26 13.1693 26.0035ZM13.1693 1.7174C10.8717 1.7174 8.62572 2.39873 6.71534 3.6752C4.80497 4.95167 3.31602 6.76595 2.43677 8.88864C1.55752 11.0113 1.32746 13.3471 1.7757 15.6005C2.22393 17.854 3.33033 19.9239 4.95497 21.5485C6.57961 23.1732 8.64954 24.2796 10.903 24.7278C13.1564 25.176 15.4922 24.946 17.6149 24.0667C19.7375 23.1875 21.5518 21.6985 22.8283 19.7882C24.1048 17.8778 24.7861 15.6318 24.7861 13.3342C24.7792 10.2554 23.553 7.30462 21.3759 5.12755C19.1989 2.95048 16.2481 1.72435 13.1693 1.7174Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+          <div class="sm:w-[1px] w-[104px] h-[1px] sm:h-[104px] bg-white"></div>
+        </div>
+        <div>
+          <h1
+            class="text-white openfont text-[28px] sm:text-[48px] md:text-[81px] font-extrabold leading-[89px]"
+          >
+            Social Media Marketing
+          </h1>
+          <p
+            class="text-white openfont text-[16px] font-normal leading-[27px] mt-[30px]"
+          >
+            Marketing is the activity, set of institutions, and processes for
+            creating, communicating, delivering, and exchanging offerings that
+            have value for customers, clients, partners, and society at large
+          </p>
+          <button
+            type="submit"
+            class="w-[169px] h-[54px] rounded-[8px] text-white btn2 flex items-center justify-center gap-[10px] my-[62px]"
+          >
+            Get Start
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="15"
+                viewBox="0 0 25 15"
+                fill="none"
+              >
+                <path
+                  d="M24.2071 8.21297C24.5976 7.82244 24.5976 7.18928 24.2071 6.79875L17.8431 0.434792C17.4526 0.0442672 16.8195 0.0442672 16.4289 0.434792C16.0384 0.825316 16.0384 1.45848 16.4289 1.84901L22.0858 7.50586L16.4289 13.1627C16.0384 13.5532 16.0384 14.1864 16.4289 14.5769C16.8195 14.9675 17.4526 14.9675 17.8431 14.5769L24.2071 8.21297ZM0.5 8.50586H23.5V6.50586H0.5V8.50586Z"
+                  fill="white"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="mt-[75px]">
+        <img src="/assets/img/Group 36043.png" alt="" />
+      </div>
+    </div>
+    <!-- our service  -->
+    <div class="bg-[#35262D] relative mt-[70px]">
+      <span class="absolute bottom-10 right-0">
+        <img src="/assets/img/Group 16.png" alt="" />
+      </span>
+      <div class="max-w-[1340px] w-full mx-auto px-[60px] relative pb-[80px]">
+        <h1
+          class="text-center text-white text-[28px] sm:text-[64px] openfont font-extrabold py-[50px]"
+        >
+          Our Services
+        </h1>
+        <div class="swiper mySwiper max-w-[1200px] w-full mx-auto">
+          <div class="swiper-wrapper sm:pl-[20px]">
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full sm:h-[264px] z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] pl-2 sm:pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  content writing
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full h-[264px] z-10 rounded-[34px] backdrop-blur-sm bg-[#35262D] pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  SMM
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] h-[54px] btn rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full h-[264px] z-10 rounded-[34px] backdrop-blur-sm bg-[#35262D] pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  SEO
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full h-[264px] z-10 rounded-[34px] backdrop-blur-sm bg-[#35262D] pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  SEO
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full h-[264px] z-10 rounded-[34px] backdrop-blur-sm bg-[#35262D] pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  SEO
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[364px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[364px] w-full h-[264px] z-10 rounded-[34px] backdrop-blur-sm bg-[#35262D] pl-[34px] py-[24px]"
+              >
+                <h2
+                  class="text-white openfont text-[32px] font-bold leading-[32px]"
+                >
+                  SEO
+                </h2>
+                <p
+                  class="mt-[6px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set institutions, and processes for
+                  creating, cmunicating, delivering, and exchanging offerings
+                  ,Marketing is the activity,
+                </p>
+                <button
+                  type="submit"
+                  class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next top-[330px]">
+          <span
+            ><svg
+              width="30"
+              height="31"
+              viewBox="0 0 30 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="15.126"
+                cy="15.2559"
+                r="14.8741"
+                fill="url(#paint0_linear_501_606)"
+              />
+              <path
+                d="M20.9015 15.6766C21.1339 15.4442 21.1339 15.0675 20.9015 14.8352L17.1152 11.0488C16.8829 10.8165 16.5062 10.8165 16.2738 11.0488C16.0415 11.2812 16.0415 11.6579 16.2738 11.8902L19.6394 15.2559L16.2738 18.6215C16.0415 18.8538 16.0415 19.2305 16.2738 19.4629C16.5062 19.6952 16.8829 19.6952 17.1152 19.4629L20.9015 15.6766ZM9.77148 15.8508H20.4808V14.6609H9.77148V15.8508Z"
+                fill="white"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_501_606"
+                  x1="30.0002"
+                  y1="14.8313"
+                  x2="0.254867"
+                  y2="15.1255"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#2653FF" />
+                  <stop offset="0.214918" stop-color="#AF00E8" />
+                  <stop offset="0.389117" stop-color="#F014BB" />
+                  <stop offset="0.531493" stop-color="#FF3078" />
+                  <stop offset="0.715815" stop-color="#FF5431" />
+                  <stop offset="1" stop-color="#FABD23" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+        </div>
+        <div class="swiper-button-prev top-[330px]">
+          <span>
+            <svg
+              width="30"
+              height="31"
+              viewBox="0 0 30 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="15.126"
+                cy="15.2559"
+                r="14.8741"
+                fill="url(#paint0_linear_501_606)"
+              />
+              <path
+                d="M9.23176 15.6766C8.99942 15.4442 8.99942 15.0675 9.23176 14.8352L13.0181 11.0488C13.2504 10.8165 13.6271 10.8165 13.8595 11.0488C14.0918 11.2812 14.0918 11.6579 13.8595 11.8902L10.4939 15.2559L13.8595 18.6215C14.0918 18.8538 14.0918 19.2305 13.8595 19.4629C13.6271 19.6952 13.2504 19.6952 13.0181 19.4629L9.23176 15.6766ZM20.3618 15.8508H9.65247V14.6609H20.3618V15.8508Z"
+                fill="white"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_501_606"
+                  x1="30.0002"
+                  y1="14.8313"
+                  x2="0.254867"
+                  y2="15.1255"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#2653FF" />
+                  <stop offset="0.214918" stop-color="#AF00E8" />
+                  <stop offset="0.389117" stop-color="#F014BB" />
+                  <stop offset="0.531493" stop-color="#FF3078" />
+                  <stop offset="0.715815" stop-color="#FF5431" />
+                  <stop offset="1" stop-color="#FABD23" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- our team  -->
+    <div class="w-full relative">
+      <span class="absolute bottom-0 right-0">
+        <svg
+          width="134"
+          height="320"
+          viewBox="0 0 134 320"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M319 160.125C319 248.214 247.589 319.625 159.5 319.625C71.4106 319.625 0 248.214 0 160.125C0 72.0353 71.4106 0.624756 159.5 0.624756C247.589 0.624756 319 72.0353 319 160.125ZM32.9824 160.125C32.9824 229.999 89.6262 286.642 159.5 286.642C229.374 286.642 286.018 229.999 286.018 160.125C286.018 90.251 229.374 33.6071 159.5 33.6071C89.6262 33.6071 32.9824 90.251 32.9824 160.125Z"
+            fill="url(#paint0_linear_501_778)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_501_778"
+              x1="319"
+              y1="155.572"
+              x2="0.0312502"
+              y2="158.727"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <div
+        class="max-w-[1140px] w-full mx-auto mt-[200px] gap-[32px] flex lg:flex-row flex-col items-center relative"
+      >
+        <div><img src="/assets/img/Group 36041.png" alt="" /></div>
+        <div class="mt-[36px] w-full">
+          <h2
+            class="text-white text-[24px] openfont font-semibold leading-[26px]"
+          >
+            Benefits / Results
+          </h2>
+          <h1
+            class="text-white text-[28px] sm:text-[64px] openfont font-extrabold leading-[70px] my-[6px]"
+          >
+            Our Team Expert
+          </h1>
+          <p class="text-white text-[16px] openfont font-normal leading-[26px]">
+            Our team of experts creates unique, engaging and functional websites
+            with modern design and fast loading speed. We understand the
+            importance of a great user experience and strive to deliver it in
+            all our projects.
+          </p>
+          <ul class="list-disc mt-[14px] ml-4">
+            <li class="text-white">Website Design and Development</li>
+            <li class="text-white">Content Management Systems (CMS)</li>
+            <li class="text-white">E-commerce Solutions</li>
+            <li class="text-white">
+              User Experience (UX) and User Interface (UI) Design
+            </li>
+            <li class="text-white">Website Maintenance and Suppor</li>
+          </ul>
+          <button
+            type="submit"
+            class="w-[150px] btn h-[54px] mt-[40px] rounded-[8px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- our work  -->
+    <div class="max-w-[1145px] w-full mx-auto mt-[265px]">
+      <div class="max-w-[581px] w-full mx-auto text-center">
+        <h2
+          class="text-white openfont text-[24px] font-semibold leading-[26px]"
+        >
+          How it Works
+        </h2>
+        <h1
+          class="text-white openfont text-[28px] sm:text-[64px] font-extrabold mt-4 leading-[26px]"
+        >
+          Our work process
+        </h1>
+      </div>
+      <div class="flex items-center lg:flex-row flex-col relative">
+        <span class="absolute left-[20%] bottom-[20%]">
+          <svg
+            width="103"
+            height="69"
+            viewBox="0 0 103 69"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M95.7584 64.3464C86.8883 24.5826 67.6333 22.7965 16.7551 28.7055C16.5567 28.7285 16.4578 28.4633 16.6113 28.3356C49.4683 1.00703 20.1097 -8.00095 1.43322 13.103M101.935 39.8947C99.2956 48.159 96.2777 60.8442 97.1789 67.5264C97.2093 67.7516 96.8464 67.903 96.715 67.7177C93.8695 63.7057 86.9039 56.2538 76.7586 51.8099"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <span class="absolute right-[20%] bottom-[20%]"
+          ><svg
+            width="103"
+            height="70"
+            viewBox="0 0 103 70"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M95.7584 5.42904C86.8883 45.1928 67.6333 46.9789 16.7551 41.0699C16.5567 41.0469 16.4578 41.3121 16.6113 41.4397C49.4683 68.7684 20.1097 77.7763 1.43322 56.6724M101.935 29.8807C99.2956 21.6164 96.2777 8.93122 97.1789 2.249C97.2093 2.02381 96.8464 1.87236 96.715 2.0577C93.8695 6.0697 86.9039 13.5216 76.7586 17.9655"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <div class="max-w-[271px] w-full">
+          <h2 class="textrgb jost text-[60px] font-semibold leading-[95px]">
+            01
+          </h2>
+          <h1 class="text-white openfont text-[20px] font-bold">
+            vitae vulputate lorem
+          </h1>
+          <p class="text-white openfont text-[14px] font-normal leading-[24px]">
+            convallis lobortis. Fusce commodo eros vestibulum tellus viverra,
+            quis pellentesque leo eleifend.
+          </p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/assets/img/Group 36042.png" alt="" />
+          <div class="max-w-[271px] w-full">
+            <h2 class="textrgb jost text-[60px] font-semibold leading-[95px]">
+              02
+            </h2>
+            <h1 class="text-white openfont text-[20px] font-bold">
+              vitae vulputate lorem
+            </h1>
+            <p
+              class="text-white openfont text-[14px] font-normal leading-[24px]"
+            >
+              convallis lobortis. Fusce commodo eros vestibulum tellus viverra,
+              quis pellentesque leo eleifend.
+            </p>
+          </div>
+        </div>
+        <div class="max-w-[271px] w-full">
+          <h2 class="textrgb jost text-[60px] font-semibold leading-[95px]">
+            03
+          </h2>
+          <h1 class="text-white openfont text-[20px] font-bold">
+            vitae vulputate lorem
+          </h1>
+          <p class="text-white openfont text-[14px] font-normal leading-[24px]">
+            convallis lobortis. Fusce commodo eros vestibulum tellus viverra,
+            quis pellentesque leo eleifend.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- every thing  -->
+    <div class="flex max-w-[1140px] w-full mx-auto items-center mt-[250px]">
+      <div class="mt-[36px] max-w-[558px] w-full">
+        <h2
+          class="text-white text-[24px] openfont font-semibold leading-[26px]"
+        >
+          ABOUT US
+        </h2>
+        <h1
+          class="text-white text-[28px] sm:text-[64px] openfont font-extrabold leading-[70px] my-[6px]"
+        >
+          Every Thing
+        </h1>
+        <p class="text-white text-[16px] openfont font-normal leading-[26px]">
+          Lorem ipsum dolor sit amet consectetur. Dui est tempus nunc enim sed
+          nulla. Orci nulla integer vestibulum nunc sollicitudin fusce magna fau
+          Lorem ipsum dolor sit amet consectetur. Dui est tempus nunc enim sed
+          nulla. Orci nulla integer vestibulum nunc
+        </p>
+
+        <button
+          type="submit"
+          class="w-[150px] btn h-[54px] mt-[40px] rounded-[8px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+        >
+          Read More
+        </button>
+      </div>
+      <div>
+        <img src="/assets/img/image 8.png" alt="" />
+      </div>
+    </div>
+    <!-- get in  -->
+    <div
+      class="bg-[url('/assets/img/bg.png')] bg-cover bg-no-repeat max-w-[1440px] bg-center w-full mx-auto mt-[200px]"
+    >
+      <div
+        class="flex lg:flex-row flex-col max-w-[1440px] w-full mx-auto items-center justify-between"
+      >
+        <div>
+          <img src="/assets/img/Group 20.png" alt="" />
+        </div>
+        <div class="max-w-[526px] w-full">
+          <h1
+            class="text-white openfont text-[28px] sm:text-[64px] font-extrabold leading-[80px]"
+          >
+            Get In Touch
+          </h1>
+          <p
+            class="text-white openfont text-[16px] font-semibold leading-[27px]"
+          >
+            Marketing is the activity, set of institutions, and processes for
+            creating, communicating, delivering, and exchanging offerings that
+            have value for customers, clients, partners, and society at large
+          </p>
+          <button
+            type="submit"
+            class="w-[150px] btn h-[54px] rounded-[8px] mt-[20px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- blog news  -->
+    <div class="relative">
+      <span class="absolute bottom-12 left-0">
+        <svg
+          width="106"
+          height="186"
+          viewBox="0 0 106 186"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M106 93.1953C106 144.282 64.5863 185.695 13.5 185.695C-37.5863 185.695 -79 144.282 -79 93.1953C-79 42.109 -37.5863 0.695312 13.5 0.695312C64.5863 0.695312 106 42.109 106 93.1953ZM-59.8723 93.1953C-59.8723 133.718 -27.0224 166.568 13.5 166.568C54.0224 166.568 86.8723 133.718 86.8723 93.1953C86.8723 52.6729 54.0224 19.823 13.5 19.823C-27.0224 19.823 -59.8723 52.6729 -59.8723 93.1953Z"
+            fill="url(#paint0_linear_501_779)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_501_779"
+              x1="106"
+              y1="90.5547"
+              x2="-78.9819"
+              y2="92.3846"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="absolute right-0 -translate-y-[100px]">
+        <svg
+          width="105"
+          height="196"
+          viewBox="0 0 105 196"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M195 98.1953C195 152.043 151.348 195.695 97.5 195.695C43.6522 195.695 0 152.043 0 98.1953C0 44.3475 43.6522 0.695312 97.5 0.695312C151.348 0.695312 195 44.3475 195 98.1953ZM20.1616 98.1953C20.1616 140.908 54.7872 175.534 97.5 175.534C140.213 175.534 174.838 140.908 174.838 98.1953C174.838 55.4825 140.213 20.8569 97.5 20.8569C54.7872 20.8569 20.1616 55.4825 20.1616 98.1953Z"
+            fill="url(#paint0_linear_501_780)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_501_780"
+              x1="195"
+              y1="95.412"
+              x2="0.0191028"
+              y2="97.3408"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#2653FF" />
+              <stop offset="0.214918" stop-color="#AF00E8" />
+              <stop offset="0.389117" stop-color="#F014BB" />
+              <stop offset="0.531493" stop-color="#FF3078" />
+              <stop offset="0.715815" stop-color="#FF5431" />
+              <stop offset="1" stop-color="#FABD23" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <div class="max-w-[1340px] w-full mx-auto px-[60px] relative pb-[80px]">
+        <div
+          class="max-w-[664px] w-full mx-auto text-center mt-[187px] mb-[66px]"
+        >
+          <h1
+            class="text-center text-white text-[28px] sm:text-[64px] openfont font-extrabold"
+          >
+            Blog/News
+          </h1>
+          <p class="text-white">
+            Marketing is the activity, set of institutions, and processes for
+            creating, communicating, delivering, and exchanging
+          </p>
+        </div>
+        <div class="swiper mySwiper2 max-w-[1100px] w-full mx-auto">
+          <div class="swiper-wrapper sm:pl-[30px]">
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full h-[54px] btn rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full h-[54px] btn rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full h-[54px] btn rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full btn h-[54px] rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full btn h-[54px] rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide rounded-[34px] max-w-[326px] w-full bg-gradient-to-l p-[1px] from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+            >
+              <div
+                class="max-w-[326px] w-full z-10 rounded-[34px] backdrop-blur-[11px] bg-[#35262D] p-[24px]"
+              >
+                <img src="/assets/img/Rectangle 12.png" alt="" />
+                <h2
+                  class="text-white openfont text-[24px] font-bold mt-[24px] leading-[26px]"
+                >
+                  How to Write SEO
+                </h2>
+                <p
+                  class="mt-[8px] text-white text-[16px] openfont font-normal leading-[27px]"
+                >
+                  Marketing is the activity, set of institutions, and processes
+                  for creating, communicating, delivering, and exchanging
+                </p>
+                <button
+                  type="submit"
+                  class="w-full btn h-[54px] rounded-[12px] mt-[24px] text-white openfont text-[16px] border font-bold hover:bg-gradient-to-l from-[#2653FF] via-[#AF00E8] to-[#FABD23]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination cursor-pointer"></div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <!-- 
+    <div
+      class="bg-[url('/assets/img/footer.png')] bg-cover bg-no-repeat h-[600px] max-w-[1920px] w-full mx-auto mt-[100px]"
+    ></div> -->
+
+    <!-- Initialize Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

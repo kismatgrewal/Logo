@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jost {
+  font-family: "Jost", sans-serif;
+}
+.openfont {
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.mySwiper .swiper-slide {
+  opacity: 1;
+}
+.mySwiper .swiper-slide-active {
+  opacity: 1;
+  box-shadow: 0px 4px 31px 0px rgba(255, 255, 255, 0.18);
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "" !important;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+
+a:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(
+    269deg,
+    #2653ff 0.48%,
+    #af00e8 21.76%,
+    #f014bb 39.01%,
+    #ff3078 53.1%,
+    #ff5431 71.36%,
+    #fabd23 99.5%
+  ) !important;
+  bottom: 0;
+  left: 20%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+}
+.btn:hover {
+  background: linear-gradient(
+    269deg,
+    #2653ff 0.48%,
+    #af00e8 21.76%,
+    #f014bb 39.01%,
+    #ff3078 53.1%,
+    #ff5431 71.36%,
+    #fabd23 99.5%
+  ) !important;
+}
+.btn2 {
+  background: linear-gradient(
+    269deg,
+    #2653ff 0.48%,
+    #af00e8 21.76%,
+    #f014bb 39.01%,
+    #ff3078 53.1%,
+    #ff5431 71.36%,
+    #fabd23 99.5%
+  ) !important;
+}
+.textrgb {
+  background: linear-gradient(
+    269deg,
+    #2653ff 0.48%,
+    #af00e8 21.76%,
+    #f014bb 39.01%,
+    #ff3078 53.1%,
+    #ff5431 71.36%,
+    #fabd23 99.5%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.drop {
+  backdrop-filter: blur(27.083818435668945px);
+  box-shadow: -50.63837px 31.98213px 122.59817px 0px rgba(0, 0, 0, 0.44);
+}
+
+@keyframes move {
+  0% {
+    width: 0;
+    left: 30%;
+    background-color: #f014bb;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+    background-color: #fabd23;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+    background-color: #f014bb;
+  }
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: linear-gradient(
+    269deg,
+    #2653ff 0.48%,
+    #af00e8 21.76%,
+    #f014bb 39.01%,
+    #ff3078 53.1%,
+    #ff5431 71.36%,
+    #fabd23 99.5%
+  ) !important;
+  width: 54px !important;
+  height: 24px !important;
+  border-radius: 40px !important;
+}
+.swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 20px)
+  ) !important;
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 20px)
+  ) !important;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 1) !important;
+  border: 1px solid white !important;
+}
