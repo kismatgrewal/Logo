@@ -65,3 +65,64 @@ btn.addEventListener("click", () => {
     side.style.left = "-105%";
   }
 });
+
+gsap.from("#mainimg", {
+  y: 400,
+  x: 300,
+  duration: 2,
+  scale: 0.5,
+});
+
+gsap.from("#our", {
+  scrollTrigger: {
+    trigger: "#ourmain",
+    start: "top 70%",
+
+    // markers: true,
+    scroller: "body",
+  },
+  x: -500,
+  duration: 1,
+
+  scale: 0.5,
+});
+gsap.from("#team", {
+  scrollTrigger: {
+    trigger: "#team-main",
+    start: "top 70%",
+
+    // markers: true,
+    scroller: "body",
+  },
+  opacity: 0,
+  x: -500,
+  duration: 1,
+
+  scale: 0.5,
+});
+gsap.from("#work", {
+  scrollTrigger: {
+    trigger: "#work-main",
+    start: "top 70%",
+
+    // markers: true,
+    scroller: "body",
+  },
+
+  duration: 1,
+
+  scale: 0.2,
+});
+gsap.from("#every", {
+  scrollTrigger: {
+    trigger: "#every-main",
+    start: "top 70%",
+
+    // markers: true,
+    scroller: "body",
+  },
+
+  duration: 1,
+  rotate: 360,
+  scale: 0.2,
+});
