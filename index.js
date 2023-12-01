@@ -76,22 +76,25 @@ gsap.from("#mainimg", {
 gsap.from("#our", {
   scrollTrigger: {
     trigger: "#ourmain",
-    start: "top 70%",
-
+    start: "top 90%",
+    end: "botoom 30%",
     // markers: true,
+    scrub: 1,
     scroller: "body",
   },
   x: -500,
   duration: 1,
-
+  color: "red",
   scale: 0.5,
 });
 gsap.from("#team", {
   scrollTrigger: {
     trigger: "#team-main",
-    start: "top 70%",
+    start: "top 90%",
+    end: "botoom 30%",
 
     // markers: true,
+    scrub: 1,
     scroller: "body",
   },
   opacity: 0,
@@ -103,9 +106,11 @@ gsap.from("#team", {
 gsap.from("#work", {
   scrollTrigger: {
     trigger: "#work-main",
-    start: "top 70%",
+    start: "top 90%",
+    end: "botoom 30%",
 
     // markers: true,
+    scrub: 1,
     scroller: "body",
   },
 
@@ -116,13 +121,39 @@ gsap.from("#work", {
 gsap.from("#every", {
   scrollTrigger: {
     trigger: "#every-main",
-    start: "top 70%",
+    start: "top 90%",
+    end: "botoom 30%",
 
     // markers: true,
+    scrub: 1,
     scroller: "body",
   },
 
   duration: 1,
   rotate: 360,
   scale: 0.2,
+});
+gsap.from("#getin", {
+  scrollTrigger: {
+    trigger: "#getin-main",
+    start: "top 90%",
+    end: "botoom 30%",
+
+    // markers: true,
+    scrub: 1,
+    scroller: "body",
+  },
+
+  duration: 1,
+  y: 500,
+  x: -200,
+  scale: 0.2,
+});
+const nav = document.querySelector("nav");
+window.addEventListener("scroll", () => {
+  if (nav.classList.toggle("sticky", window.scrollY)) {
+    nav.classList.toggle("relative", window.scrollY);
+  } else {
+    nav.classList.toggle("sticky", window.scrollY);
+  }
 });
