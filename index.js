@@ -1,3 +1,4 @@
+// slider js
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 34,
@@ -56,6 +57,13 @@ var swiper = new Swiper(".mySwiper2", {
   },
 });
 
+// locomotive scroll js
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector("body"),
+//   smooth: true,
+// });
+// sidebar js
+
 const btn = document.getElementById("btn");
 const side = document.getElementById("side");
 btn.addEventListener("click", () => {
@@ -65,7 +73,7 @@ btn.addEventListener("click", () => {
     side.style.left = "-105%";
   }
 });
-
+// gsap js
 gsap.from("#mainimg", {
   y: 400,
   x: 300,
@@ -149,6 +157,7 @@ gsap.from("#getin", {
   x: -200,
   scale: 0.2,
 });
+// navbar sticky js
 const nav = document.querySelector("nav");
 window.addEventListener("scroll", () => {
   if (nav.classList.toggle("sticky", window.scrollY)) {
@@ -157,3 +166,20 @@ window.addEventListener("scroll", () => {
     nav.classList.toggle("sticky", window.scrollY);
   }
 });
+// shery js effect
+
+Shery.textAnimate("h1", {
+  style: 1,
+  delay: 0.1,
+  duration: 2,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  multiplier: 0.1,
+});
+
+Shery.imageEffect("#work", {
+  style: 2,
+  debug: true,
+  config: "",
+});
+Shery.mouseFollower();
+Shery.makeMagnet("#logo");
